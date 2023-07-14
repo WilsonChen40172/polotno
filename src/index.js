@@ -32,6 +32,7 @@ export const App = ({ store }) => {
         <Toolbar store={store} downloadButtonEnabled />
         <Workspace store={store} />
         <ZoomButtons store={store} />
+        <p>僅供個人練習使用 絕無商業之行為</p>
       </WorkspaceWrap>
     </PolotnoContainer>
   );
